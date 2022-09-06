@@ -6,12 +6,12 @@
 //
 
 #include "Utils.hpp"
-#include "exercise_1.hpp"
+#include "exercise_2.hpp"
 #include <iostream>
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    cout << lengthOfLengthesSequence();
+    getCountOfOne();
     return 0;
 }

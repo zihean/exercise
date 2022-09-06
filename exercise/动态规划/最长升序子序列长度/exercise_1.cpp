@@ -7,9 +7,9 @@
 
 #include "exercise_1.hpp"
 #include "Utils.hpp"
-#include <iostream>
 #include <string>
 #include <vector>
+#include <iostream>
 
 using namespace std;
 
@@ -62,12 +62,12 @@ int maxLen(vector<int> arr) {
 }
 
 // 3 6 9 12 7 4 1 8 9
-int lengthOfLengthesSequence() {
+void lengthOfLengthesSequence() {
     int len;
     cin >> len;
     vector<int> arr(len);
     for (int i; i < len; ++i) {
         cin >> arr[i];
     }
-    return maxLen(arr);
+    cout << maxLen(arr);
 }

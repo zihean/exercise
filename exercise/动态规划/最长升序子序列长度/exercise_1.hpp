@@ -10,6 +10,6 @@
 
 #include <stdio.h>
 
-int lengthOfLengthesSequence();
+void lengthOfLengthesSequence();
 
 #endif /* exercise_1_hpp */

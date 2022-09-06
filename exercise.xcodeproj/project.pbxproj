@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9DE7E3928C6F1B700878C42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DE7E3828C6F1B700878C42 /* main.m */; };
+		B9ADABB028C6F8AF00C7ADCE /* exercise_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ADABAE28C6F8AF00C7ADCE /* exercise_1.cpp */; };
+		B9DE7E3928C6F1B700878C42 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9DE7E3828C6F1B700878C42 /* main.mm */; };
+		B9DE7E4528C6F58400878C42 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9DE7E4328C6F58400878C42 /* Utils.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B9ADABAE28C6F8AF00C7ADCE /* exercise_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise_1.cpp; sourceTree = "<group>"; };
+		B9ADABAF28C6F8AF00C7ADCE /* exercise_1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = exercise_1.hpp; sourceTree = "<group>"; };
 		B9DE7E3528C6F1B700878C42 /* exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = exercise; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9DE7E3828C6F1B700878C42 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9DE7E3828C6F1B700878C42 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		B9DE7E4328C6F58400878C42 /* Utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
+		B9DE7E4428C6F58400878C42 /* Utils.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Utils.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,29 @@
 		B9DE7E3728C6F1B700878C42 /* exercise */ = {
 			isa = PBXGroup;
 			children = (
-				B9DE7E3828C6F1B700878C42 /* main.m */,
+				B9DE7E3828C6F1B700878C42 /* main.mm */,
+				B9DE7E4428C6F58400878C42 /* Utils.hpp */,
+				B9DE7E4328C6F58400878C42 /* Utils.cpp */,
+				B9DE7E3F28C6F43600878C42 /* 动态规划 */,
 			);
 			path = exercise;
+			sourceTree = "<group>";
+		};
+		B9DE7E3F28C6F43600878C42 /* 动态规划 */ = {
+			isa = PBXGroup;
+			children = (
+				B9DE7E4128C6F4A900878C42 /* 最长升序子序列长度 */,
+			);
+			path = "动态规划";
+			sourceTree = "<group>";
+		};
+		B9DE7E4128C6F4A900878C42 /* 最长升序子序列长度 */ = {
+			isa = PBXGroup;
+			children = (
+				B9ADABAE28C6F8AF00C7ADCE /* exercise_1.cpp */,
+				B9ADABAF28C6F8AF00C7ADCE /* exercise_1.hpp */,
+			);
+			path = "最长升序子序列长度";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9DE7E3928C6F1B700878C42 /* main.m in Sources */,
+				B9ADABB028C6F8AF00C7ADCE /* exercise_1.cpp in Sources */,
+				B9DE7E3928C6F1B700878C42 /* main.mm in Sources */,
+				B9DE7E4528C6F58400878C42 /* Utils.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

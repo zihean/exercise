@@ -5,12 +5,13 @@
 //  Created by 安子和 on 2022/9/6.
 //
 
-#import <Foundation/Foundation.h>
+#include "Utils.hpp"
+#include "exercise_1.hpp"
+#include <iostream>
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+    cout << lengthOfLengthesSequence();
     return 0;
 }

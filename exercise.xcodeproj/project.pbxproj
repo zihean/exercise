@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B9ADABB028C6F8AF00C7ADCE /* exercise_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ADABAE28C6F8AF00C7ADCE /* exercise_1.cpp */; };
 		B9ADAE9728C7419100C7ADCE /* exercise_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ADAE9528C7419100C7ADCE /* exercise_2.cpp */; };
+		B9ADAE9B28C7462800C7ADCE /* exercise_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ADAE9928C7462800C7ADCE /* exercise_3.cpp */; };
 		B9DE7E3928C6F1B700878C42 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9DE7E3828C6F1B700878C42 /* main.mm */; };
 		B9DE7E4528C6F58400878C42 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9DE7E4328C6F58400878C42 /* Utils.cpp */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,8 @@
 		B9ADABAF28C6F8AF00C7ADCE /* exercise_1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = exercise_1.hpp; sourceTree = "<group>"; };
 		B9ADAE9528C7419100C7ADCE /* exercise_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise_2.cpp; sourceTree = "<group>"; };
 		B9ADAE9628C7419100C7ADCE /* exercise_2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = exercise_2.hpp; sourceTree = "<group>"; };
+		B9ADAE9928C7462800C7ADCE /* exercise_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise_3.cpp; sourceTree = "<group>"; };
+		B9ADAE9A28C7462800C7ADCE /* exercise_3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = exercise_3.hpp; sourceTree = "<group>"; };
 		B9DE7E3528C6F1B700878C42 /* exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = exercise; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DE7E3828C6F1B700878C42 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		B9DE7E4328C6F58400878C42 /* Utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
@@ -54,6 +57,15 @@
 				B9ADAE9628C7419100C7ADCE /* exercise_2.hpp */,
 			);
 			path = "整数对应二进制1的个数";
+			sourceTree = "<group>";
+		};
+		B9ADAE9828C745DC00C7ADCE /* DNA序列 */ = {
+			isa = PBXGroup;
+			children = (
+				B9ADAE9928C7462800C7ADCE /* exercise_3.cpp */,
+				B9ADAE9A28C7462800C7ADCE /* exercise_3.hpp */,
+			);
+			path = "DNA序列";
 			sourceTree = "<group>";
 		};
 		B9DE7E2C28C6F1B700878C42 = {
@@ -86,6 +98,7 @@
 		B9DE7E3F28C6F43600878C42 /* 动态规划 */ = {
 			isa = PBXGroup;
 			children = (
+				B9ADAE9828C745DC00C7ADCE /* DNA序列 */,
 				B9ADAE9428C7416600C7ADCE /* 整数对应二进制1的个数 */,
 				B9DE7E4128C6F4A900878C42 /* 最长升序子序列长度 */,
 			);
@@ -158,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9ADAE9B28C7462800C7ADCE /* exercise_3.cpp in Sources */,
 				B9ADAE9728C7419100C7ADCE /* exercise_2.cpp in Sources */,
 				B9ADABB028C6F8AF00C7ADCE /* exercise_1.cpp in Sources */,
 				B9DE7E3928C6F1B700878C42 /* main.mm in Sources */,

@@ -6,12 +6,12 @@
 //
 
 #include "Utils.hpp"
-#include "exercise_2.hpp"
+#include "exercise_3.hpp"
 #include <iostream>
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    getCountOfOne();
+    getSubstrOfDNA();
     return 0;
 }

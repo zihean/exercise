@@ -6,12 +6,12 @@
 //
 
 #include "Utils.hpp"
-#include "exercise_3.hpp"
+#include "exercise_4.hpp"
 #include <iostream>
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    getSubstrOfDNA();
+    mp3();
     return 0;
 }

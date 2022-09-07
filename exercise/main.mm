@@ -6,12 +6,12 @@
 //
 
 #include "Utils.hpp"
-#include "exercise_4.hpp"
+#include "exercise_6.hpp"
 #include <iostream>
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    mp3();
+    getCountOfChar();
     return 0;
 }

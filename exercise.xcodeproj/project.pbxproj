@@ -14,6 +14,7 @@
 		B9ADAEA628C8936300C7ADCE /* exercise_5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ADAEA428C8936300C7ADCE /* exercise_5.cpp */; };
 		B9ADAF8528C8989B00C7ADCE /* exercise_6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ADAF8328C8989B00C7ADCE /* exercise_6.cpp */; };
 		B9ADB2BA28C9E72400C7ADCE /* leetcode_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ADB2B828C9E72400C7ADCE /* leetcode_1.cpp */; };
+		B9ADB2BF28C9EEB000C7ADCE /* leetcode_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ADB2BD28C9EEB000C7ADCE /* leetcode_2.cpp */; };
 		B9DE7E3928C6F1B700878C42 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9DE7E3828C6F1B700878C42 /* main.mm */; };
 		B9DE7E4528C6F58400878C42 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9DE7E4328C6F58400878C42 /* Utils.cpp */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,8 @@
 		B9ADAF8428C8989B00C7ADCE /* exercise_6.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = exercise_6.hpp; sourceTree = "<group>"; };
 		B9ADB2B828C9E72400C7ADCE /* leetcode_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode_1.cpp; sourceTree = "<group>"; };
 		B9ADB2B928C9E72400C7ADCE /* leetcode_1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = leetcode_1.hpp; sourceTree = "<group>"; };
+		B9ADB2BD28C9EEB000C7ADCE /* leetcode_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode_2.cpp; sourceTree = "<group>"; };
+		B9ADB2BE28C9EEB000C7ADCE /* leetcode_2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = leetcode_2.hpp; sourceTree = "<group>"; };
 		B9DE7E3528C6F1B700878C42 /* exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = exercise; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DE7E3828C6F1B700878C42 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		B9DE7E4328C6F58400878C42 /* Utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
@@ -143,6 +146,23 @@
 			path = "两数之和";
 			sourceTree = "<group>";
 		};
+		B9ADB2BB28C9EE8500C7ADCE /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
+				B9ADB2BC28C9EE9900C7ADCE /* 两数相加 */,
+			);
+			path = "链表";
+			sourceTree = "<group>";
+		};
+		B9ADB2BC28C9EE9900C7ADCE /* 两数相加 */ = {
+			isa = PBXGroup;
+			children = (
+				B9ADB2BD28C9EEB000C7ADCE /* leetcode_2.cpp */,
+				B9ADB2BE28C9EEB000C7ADCE /* leetcode_2.hpp */,
+			);
+			path = "两数相加";
+			sourceTree = "<group>";
+		};
 		B9DE7E2C28C6F1B700878C42 = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +182,7 @@
 		B9DE7E3728C6F1B700878C42 /* exercise */ = {
 			isa = PBXGroup;
 			children = (
+				B9ADB2BB28C9EE8500C7ADCE /* 链表 */,
 				B9ADAEA228C8932800C7ADCE /* 位运算 */,
 				B9ADAEA128C8930100C7ADCE /* 滑动窗口 */,
 				B9ADAEA028C892D900C7ADCE /* 一般题 */,
@@ -248,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9ADAE9F28C83D3B00C7ADCE /* exercise_4.cpp in Sources */,
+				B9ADB2BF28C9EEB000C7ADCE /* leetcode_2.cpp in Sources */,
 				B9ADAEA628C8936300C7ADCE /* exercise_5.cpp in Sources */,
 				B9ADB2BA28C9E72400C7ADCE /* leetcode_1.cpp in Sources */,
 				B9ADAE9B28C7462800C7ADCE /* exercise_3.cpp in Sources */,

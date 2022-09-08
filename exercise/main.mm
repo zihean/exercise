@@ -6,12 +6,14 @@
 //
 
 #include "Utils.hpp"
-#include "exercise_6.hpp"
+#include "leetcode_1.hpp"
 #include <iostream>
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    getCountOfChar();
+    Solution *solution = new Solution();
+    vector<int> vec = {2, 3, 4, 6};
+    solution->twoSum(vec, 7);
     return 0;
 }

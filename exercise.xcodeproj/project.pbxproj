@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B98E175428CB18AD0078148D /* lc_547.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B98E175228CB18AD0078148D /* lc_547.cpp */; };
 		B9ADABB028C6F8AF00C7ADCE /* exercise_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ADABAE28C6F8AF00C7ADCE /* exercise_1.cpp */; };
 		B9ADAE9728C7419100C7ADCE /* exercise_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ADAE9528C7419100C7ADCE /* exercise_2.cpp */; };
 		B9ADAE9B28C7462800C7ADCE /* exercise_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ADAE9928C7462800C7ADCE /* exercise_3.cpp */; };
@@ -15,6 +16,8 @@
 		B9ADAF8528C8989B00C7ADCE /* exercise_6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ADAF8328C8989B00C7ADCE /* exercise_6.cpp */; };
 		B9ADB2BA28C9E72400C7ADCE /* leetcode_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ADB2B828C9E72400C7ADCE /* leetcode_1.cpp */; };
 		B9ADB2BF28C9EEB000C7ADCE /* leetcode_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ADB2BD28C9EEB000C7ADCE /* leetcode_2.cpp */; };
+		B9ADB2C328CADF7500C7ADCE /* leetcode_3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ADB2C128CADF7500C7ADCE /* leetcode_3.cpp */; };
+		B9ADB2C728CAE47B00C7ADCE /* leetcode_5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ADB2C528CAE47B00C7ADCE /* leetcode_5.cpp */; };
 		B9DE7E3928C6F1B700878C42 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9DE7E3828C6F1B700878C42 /* main.mm */; };
 		B9DE7E4528C6F58400878C42 /* Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9DE7E4328C6F58400878C42 /* Utils.cpp */; };
 /* End PBXBuildFile section */
@@ -32,6 +35,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B98E175228CB18AD0078148D /* lc_547.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = lc_547.cpp; sourceTree = "<group>"; };
+		B98E175328CB18AD0078148D /* lc_547.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = lc_547.hpp; sourceTree = "<group>"; };
 		B9ADABAE28C6F8AF00C7ADCE /* exercise_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise_1.cpp; sourceTree = "<group>"; };
 		B9ADABAF28C6F8AF00C7ADCE /* exercise_1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = exercise_1.hpp; sourceTree = "<group>"; };
 		B9ADAE9528C7419100C7ADCE /* exercise_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = exercise_2.cpp; sourceTree = "<group>"; };
@@ -48,6 +53,10 @@
 		B9ADB2B928C9E72400C7ADCE /* leetcode_1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = leetcode_1.hpp; sourceTree = "<group>"; };
 		B9ADB2BD28C9EEB000C7ADCE /* leetcode_2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode_2.cpp; sourceTree = "<group>"; };
 		B9ADB2BE28C9EEB000C7ADCE /* leetcode_2.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = leetcode_2.hpp; sourceTree = "<group>"; };
+		B9ADB2C128CADF7500C7ADCE /* leetcode_3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode_3.cpp; sourceTree = "<group>"; };
+		B9ADB2C228CADF7500C7ADCE /* leetcode_3.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = leetcode_3.hpp; sourceTree = "<group>"; };
+		B9ADB2C528CAE47B00C7ADCE /* leetcode_5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode_5.cpp; sourceTree = "<group>"; };
+		B9ADB2C628CAE47B00C7ADCE /* leetcode_5.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = leetcode_5.hpp; sourceTree = "<group>"; };
 		B9DE7E3528C6F1B700878C42 /* exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = exercise; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9DE7E3828C6F1B700878C42 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		B9DE7E4328C6F58400878C42 /* Utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Utils.cpp; sourceTree = "<group>"; };
@@ -65,6 +74,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B98E175128CB18810078148D /* 并查集 */ = {
+			isa = PBXGroup;
+			children = (
+				B98E175228CB18AD0078148D /* lc_547.cpp */,
+				B98E175328CB18AD0078148D /* lc_547.hpp */,
+			);
+			path = "并查集";
+			sourceTree = "<group>";
+		};
 		B9ADAE9428C7416600C7ADCE /* 整数对应二进制1的个数 */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +113,8 @@
 		B9ADAEA028C892D900C7ADCE /* 一般题 */ = {
 			isa = PBXGroup;
 			children = (
+				B9ADB2C428CAE46000C7ADCE /* 最长回文子串 */,
+				B9ADB2C028CADF3D00C7ADCE /* 最长不重复子串 */,
 				B9ADB2B728C9E64200C7ADCE /* 两数之和 */,
 				B9ADAF9728C89C1800C7ADCE /* 字符串中某字符的个数 */,
 				B9ADAEA328C8934600C7ADCE /* 最后一个单词 */,
@@ -163,6 +183,24 @@
 			path = "两数相加";
 			sourceTree = "<group>";
 		};
+		B9ADB2C028CADF3D00C7ADCE /* 最长不重复子串 */ = {
+			isa = PBXGroup;
+			children = (
+				B9ADB2C128CADF7500C7ADCE /* leetcode_3.cpp */,
+				B9ADB2C228CADF7500C7ADCE /* leetcode_3.hpp */,
+			);
+			path = "最长不重复子串";
+			sourceTree = "<group>";
+		};
+		B9ADB2C428CAE46000C7ADCE /* 最长回文子串 */ = {
+			isa = PBXGroup;
+			children = (
+				B9ADB2C528CAE47B00C7ADCE /* leetcode_5.cpp */,
+				B9ADB2C628CAE47B00C7ADCE /* leetcode_5.hpp */,
+			);
+			path = "最长回文子串";
+			sourceTree = "<group>";
+		};
 		B9DE7E2C28C6F1B700878C42 = {
 			isa = PBXGroup;
 			children = (
@@ -182,13 +220,14 @@
 		B9DE7E3728C6F1B700878C42 /* exercise */ = {
 			isa = PBXGroup;
 			children = (
+				B9DE7E3828C6F1B700878C42 /* main.mm */,
+				B9DE7E4428C6F58400878C42 /* Utils.hpp */,
+				B9DE7E4328C6F58400878C42 /* Utils.cpp */,
 				B9ADB2BB28C9EE8500C7ADCE /* 链表 */,
 				B9ADAEA228C8932800C7ADCE /* 位运算 */,
 				B9ADAEA128C8930100C7ADCE /* 滑动窗口 */,
 				B9ADAEA028C892D900C7ADCE /* 一般题 */,
-				B9DE7E3828C6F1B700878C42 /* main.mm */,
-				B9DE7E4428C6F58400878C42 /* Utils.hpp */,
-				B9DE7E4328C6F58400878C42 /* Utils.cpp */,
+				B98E175128CB18810078148D /* 并查集 */,
 				B9DE7E3F28C6F43600878C42 /* 动态规划 */,
 			);
 			path = exercise;
@@ -272,12 +311,15 @@
 				B9ADB2BF28C9EEB000C7ADCE /* leetcode_2.cpp in Sources */,
 				B9ADAEA628C8936300C7ADCE /* exercise_5.cpp in Sources */,
 				B9ADB2BA28C9E72400C7ADCE /* leetcode_1.cpp in Sources */,
+				B9ADB2C728CAE47B00C7ADCE /* leetcode_5.cpp in Sources */,
 				B9ADAE9B28C7462800C7ADCE /* exercise_3.cpp in Sources */,
+				B9ADB2C328CADF7500C7ADCE /* leetcode_3.cpp in Sources */,
 				B9ADAE9728C7419100C7ADCE /* exercise_2.cpp in Sources */,
 				B9ADABB028C6F8AF00C7ADCE /* exercise_1.cpp in Sources */,
 				B9DE7E3928C6F1B700878C42 /* main.mm in Sources */,
 				B9ADAF8528C8989B00C7ADCE /* exercise_6.cpp in Sources */,
 				B9DE7E4528C6F58400878C42 /* Utils.cpp in Sources */,
+				B98E175428CB18AD0078148D /* lc_547.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

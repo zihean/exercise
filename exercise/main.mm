@@ -6,14 +6,13 @@
 //
 
 #include "Utils.hpp"
-#include "leetcode_1.hpp"
+#include "lc_547.hpp"
 #include <iostream>
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
     Solution *solution = new Solution();
-    vector<int> vec = {2, 3, 4, 6};
-    solution->twoSum(vec, 7);
+//    cout << solution->longestPalindrome(str);
     return 0;
 }
